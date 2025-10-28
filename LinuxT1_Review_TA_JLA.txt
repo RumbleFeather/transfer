@@ -1,0 +1,450 @@
+[pc52@linuxclass Mon Oct 27 11:21:44 ~]$ #Joshua Anderson
+[pc52@linuxclass Mon Oct 27 11:22:09 ~]$ #step 4
+[pc52@linuxclass Mon Oct 27 11:22:28 ~]$ mkdir T1_review
+[pc52@linuxclass Mon Oct 27 11:22:43 ~]$ mkdir -p T1_review/a_server T1_review/b_server
+[pc52@linuxclass Mon Oct 27 11:23:36 ~]$ mkdir -p T1_review/b_server/linux
+[pc52@linuxclass Mon Oct 27 11:24:08 ~]$ #step 5
+[pc52@linuxclass Mon Oct 27 11:25:30 ~]$ cp -r /home/1171_DataFiles/* ./T1_review/
+[pc52@linuxclass Mon Oct 27 11:27:35 ~]$ cd T1_review/
+[pc52@linuxclass Mon Oct 27 11:27:56 T1_review]$ tree
+.
+├── animals
+│   ├── beagle
+│   ├── calico
+│   ├── french_bulldog
+│   ├── giraffe
+│   ├── hamsters
+│   ├── maine_coon
+│   ├── marlin
+│   ├── pug
+│   ├── siamese
+│   ├── squirrels
+│   ├── students
+│   ├── tigers
+│   ├── tropical
+│   ├── trout
+│   └── tuna
+├── a_server
+├── b_server
+│   └── linux
+├── database
+│   ├── access
+│   ├── my_list
+│   ├── phone
+│   ├── products
+│   ├── students
+│   ├── vendors
+│   ├── your_list
+│   ├── zoo1
+│   └── zoo3
+├── demo
+│   ├── capitals
+│   ├── catDemo
+│   ├── cityOne
+│   ├── cityTwo
+│   ├── com1
+│   ├── com2
+│   ├── comp1
+│   ├── comp2
+│   ├── extras
+│   ├── f_name
+│   ├── f_names
+│   ├── grepprac
+│   ├── groceries
+│   ├── if_vari
+│   ├── l_name
+│   ├── l_names
+│   ├── loop
+│   ├── loop1
+│   ├── loop2
+│   ├── loop3
+│   ├── loop4
+│   ├── loop6
+│   ├── looping
+│   ├── looping2
+│   ├── numbers
+│   ├── phone
+│   ├── seqlogic
+│   ├── sortnum
+│   ├── students
+│   ├── textproc
+│   ├── translate
+│   ├── tr_example
+│   ├── udemo
+│   ├── UniqueLists
+│   ├── varidemo
+│   └── WorldCaps
+│       └── UniqueLists
+├── documents
+│   ├── Budget.xls
+│   ├── Cable.bill
+│   ├── Car.ins
+│   ├── Disney
+│   │   ├── airinfor
+│   │   ├── rentalcar
+│   │   └── reservation
+│   ├── Electric.bill
+│   ├── homeowners.ins
+│   ├── LPS_classes
+│   ├── SCC_checksheet
+│   ├── SCC_classes
+│   └── Water.bill
+├── filesearch
+│   ├── ClientServer.class
+│   ├── ClientServer.java
+│   ├── comp1
+│   ├── comp2
+│   ├── compare1
+│   ├── compare2
+│   ├── dir1
+│   ├── dir2
+│   ├── EchoServer.class
+│   ├── EchoServer.java
+│   ├── grepdemo
+│   ├── grepprac
+│   ├── testone
+│   └── testtwo
+├── historical
+│   ├── address.txt
+│   ├── colonies.lst
+│   ├── hist_assign1.new
+│   ├── hist_assign1.old
+│   ├── hist_assign2.new
+│   ├── hist_assign3.new
+│   ├── Lincoln.bio
+│   ├── LinuxHist
+│   ├── Linuxnotes.txt
+│   ├── misc
+│   ├── MLK.bio
+│   └── vi_commands
+├── LinuxT1
+│   ├── bee
+│   ├── classes
+│   ├── its_over
+│   ├── limerick1
+│   ├── limerick2
+│   ├── limerick3
+│   ├── linuxFolder
+│   ├── Literature
+│   ├── p1
+│   ├── p2
+│   ├── p3
+│   ├── student_letter
+│   ├── the_raven
+│   └── wall_street
+├── LinuxT1_review
+│   ├── bears
+│   ├── EchoServer.class
+│   ├── EchoServer.java
+│   ├── groceries
+│   ├── INFO1171
+│   ├── linuxServer
+│   ├── LinuxServer.class
+│   ├── LinuxServer.java
+│   ├── lions
+│   ├── loop
+│   ├── loop2
+│   ├── looping
+│   ├── testone
+│   ├── testtwo
+│   ├── tigers
+│   ├── windowsServer
+│   └── WindowsServer.java
+├── LinuxT2
+│   ├── bee
+│   ├── classes
+│   ├── ClientServer.class
+│   ├── ClientServer.java
+│   ├── EchoServer.class
+│   ├── EchoServer.java
+│   ├── Frost
+│   ├── its_over
+│   ├── letterToStudents
+│   ├── limerick1
+│   ├── limerick2
+│   ├── limerick3
+│   ├── linuxFolder
+│   ├── Literature
+│   ├── Longfellow
+│   ├── p1
+│   ├── p2
+│   ├── p3
+│   ├── Poe
+│   ├── sccStaff
+│   ├── student_letter
+│   ├── the_raven
+│   └── wall_street
+├── LinuxT2_review
+│   ├── bears
+│   ├── EchoServer.class
+│   ├── EchoServer.java
+│   ├── groceries
+│   ├── INFO1171
+│   ├── linuxServer
+│   ├── LinuxServer.class
+│   ├── LinuxServer.java
+│   ├── lions
+│   ├── loop
+│   ├── loop2
+│   ├── looping
+│   ├── testone
+│   ├── testtwo
+│   ├── tigers
+│   ├── windowsServer
+│   └── WindowsServer.java
+├── LinuxT3
+│   ├── bee
+│   ├── copyLFiles
+│   ├── limerick1
+│   ├── limerick2
+│   ├── limerick3
+│   ├── sccStaff
+│   ├── student_letter
+│   └── wall_street
+├── LinuxT3retry
+│   ├── bee
+│   ├── copyrickFiles
+│   ├── limerick1
+│   ├── limerick2
+│   ├── limerick3
+│   ├── sccStaff
+│   ├── student_letter
+│   └── wall_street
+├── LinuxT3_review
+│   ├── capitals
+│   ├── cit_staff
+│   ├── CITStaff
+│   ├── DoggyDayCamp
+│   ├── EchoServer.class
+│   ├── EchoServer.java
+│   ├── karen
+│   ├── karenkillham
+│   ├── king
+│   ├── linuxServer
+│   ├── months
+│   ├── months2
+│   ├── serveradmin
+│   ├── students
+│   ├── WebUsers
+│   ├── windowsServer
+│   └── winnt
+├── literature
+│   ├── english
+│   ├── hamlet.gif
+│   ├── hamlet.jpg
+│   ├── king_lear
+│   ├── macbeth.gif
+│   ├── names
+│   ├── othello
+│   ├── romeo_juliet.gif
+│   ├── romeo_juliet.png
+│   ├── shakespeare-73
+│   ├── shakespeare-hamlet
+│   └── shakespeare-not
+├── permissions
+│   ├── ActivityThree
+│   ├── BookList
+│   ├── QuizTwo
+│   ├── TestOne
+│   ├── testthree
+│   ├── testtwo
+│   ├── tr_example
+│   ├── udemo
+│   ├── UniqueLists
+│   ├── varidemo
+│   └── WorldCaps
+│       └── UniqueLists
+├── processes
+│   ├── binCompile.c
+│   ├── compile.sh
+│   ├── looping
+│   ├── looping2
+│   ├── looping2.sh
+│   ├── looping.sh
+│   ├── tr_example
+│   ├── udemo
+│   ├── UniqueLists
+│   ├── varidemo
+│   └── WorldCaps
+│       └── UniqueLists
+├── scripts
+│   ├── extras
+│   ├── if_vari
+│   ├── loop1
+│   ├── loop2
+│   ├── loop3
+│   ├── loop4
+│   ├── loop6
+│   ├── seqlogic
+│   └── varidemo
+├── sorting
+│   ├── capitals
+│   ├── catDemo
+│   ├── cityOne
+│   ├── cityTwo
+│   ├── com1
+│   ├── com2
+│   ├── comp1
+│   ├── comp2
+│   ├── extras
+│   ├── f_name
+│   ├── f_names
+│   ├── grepprac
+│   ├── groceries
+│   ├── l_name
+│   ├── l_names
+│   ├── numbers
+│   ├── phone
+│   ├── sortnum
+│   ├── students
+│   ├── textproc
+│   ├── translate
+│   ├── tr_example
+│   ├── udemo
+│   ├── UniqueLists
+│   └── WorldCaps
+│       └── UniqueLists
+├── stdfiles
+│   ├── firstname
+│   ├── java.txt
+│   ├── lastname
+│   ├── my_list
+│   ├── products
+│   ├── vendors
+│   ├── zoo1
+│   └── zoo2
+├── text_proc
+│   ├── capitals
+│   ├── catDemo
+│   ├── cityOne
+│   ├── cityTwo
+│   ├── Cone
+│   ├── Ctwo
+│   ├── phone
+│   ├── sortnum
+│   ├── students
+│   ├── tr_example
+│   └── udemo
+└── vimeditor
+    ├── hello
+    ├── prepared
+    ├── steps
+    ├── tidbits
+    └── vimdir
+
+49 directories, 274 files
+[pc52@linuxclass Mon Oct 27 11:28:23 T1_review]$ #step 8
+[pc52@linuxclass Mon Oct 27 11:29:19 T1_review]$ ls -l -i
+total 48
+269498408 drwxr-xr-x 3 pc52 pc52 4096 Oct 27 11:27 animals
+403086218 drwxr-xr-x 2 pc52 pc52    6 Oct 27 11:23 a_server
+  1380475 drwxr-xr-x 3 pc52 pc52   19 Oct 27 11:24 b_server
+  1380455 drwxr-xr-x 3 pc52 pc52  136 Oct 27 11:27 database
+269498423 drwxr-xr-x 4 pc52 pc52 4096 Oct 27 11:27 demo
+269498714 drwxr-xr-x 3 pc52 pc52  192 Oct 27 11:27 documents
+  1379183 drwxr-xr-x 4 pc52 pc52 4096 Oct 27 11:27 filesearch
+403086228 drwxr-xr-x 3 pc52 pc52 4096 Oct 27 11:27 historical
+134732672 drwxr-xr-x 4 pc52 pc52 4096 Oct 27 11:27 LinuxT1
+  1380620 drwxr-xr-x 2 pc52 pc52 4096 Oct 27 11:27 LinuxT1_review
+134732685 drwxr-xr-x 5 pc52 pc52 4096 Oct 27 11:27 LinuxT2
+134732707 drwxr-xr-x 2 pc52 pc52 4096 Oct 27 11:27 LinuxT2_review
+269498727 drwxr-xr-x 2 pc52 pc52  143 Oct 27 11:27 LinuxT3
+403086242 drwxr-xr-x 2 pc52 pc52  146 Oct 27 11:27 LinuxT3retry
+  1380639 drwxr-xr-x 2 pc52 pc52 4096 Oct 27 11:27 LinuxT3_review
+134732725 drwxr-xr-x 3 pc52 pc52 4096 Oct 27 11:27 literature
+403086251 drwxr-xr-x 4 pc52 pc52  188 Oct 27 11:27 permissions
+403086261 drwxr-xr-x 4 pc52 pc52 4096 Oct 27 11:27 processes
+403086271 drwxr-xr-x 2 pc52 pc52  132 Oct 27 11:27 scripts
+  1380659 drwxr-xr-x 4 pc52 pc52 4096 Oct 27 11:27 sorting
+  1382539 drwxr-xr-x 2 pc52 pc52  125 Oct 27 11:27 stdfiles
+134732548 drwxr-xr-x 2 pc52 pc52  166 Oct 27 11:27 text_proc
+269498740 drwxr-xr-x 3 pc52 pc52   77 Oct 27 11:27 vimeditor
+[pc52@linuxclass Mon Oct 27 11:29:37 T1_review]$ #step 9
+[pc52@linuxclass Mon Oct 27 11:29:56 T1_review]$ mv sorting/groceries word/grocerylist
+mv: cannot move 'sorting/groceries' to 'word/grocerylist': No such file or directory
+[pc52@linuxclass Mon Oct 27 11:31:32 T1_review]$ mkdir word
+[pc52@linuxclass Mon Oct 27 11:37:20 T1_review]$ mv sorting/groceries word/grocerylist
+[pc52@linuxclass Mon Oct 27 11:37:23 T1_review]$ #step 10
+[pc52@linuxclass Mon Oct 27 11:37:43 T1_review]$ move EchoServer* b_server/
+bash: move: command not found...
+[pc52@linuxclass Mon Oct 27 11:38:33 T1_review]$ mv EchoServer* b_server/
+mv: cannot stat 'EchoServer*': No such file or directory
+[pc52@linuxclass Mon Oct 27 11:38:49 T1_review]$ mv linuxT1_review/EchoServer* b_server/
+mv: cannot stat 'linuxT1_review/EchoServer*': No such file or directory
+[pc52@linuxclass Mon Oct 27 11:40:02 T1_review]$ mv ./linuxT1_review/EchoServer* b_server/
+mv: cannot stat './linuxT1_review/EchoServer*': No such file or directory
+[pc52@linuxclass Mon Oct 27 11:40:14 T1_review]$ ls
+animals   database   filesearch  LinuxT1_review  LinuxT3         literature   scripts   text_proc
+a_server  demo       historical  LinuxT2         LinuxT3retry    permissions  sorting   vimeditor
+b_server  documents  LinuxT1     LinuxT2_review  LinuxT3_review  processes    stdfiles  word
+[pc52@linuxclass Mon Oct 27 11:40:46 T1_review]$ mv LinuxT1_review/EchoServer* b_server/
+[pc52@linuxclass Mon Oct 27 11:42:18 T1_review]$ #step 11
+[pc52@linuxclass Mon Oct 27 11:42:38 T1_review]$ mv LinuxT1_review/LinuxServer* a_server/
+[pc52@linuxclass Mon Oct 27 11:43:10 T1_review]$ #step 12
+[pc52@linuxclass Mon Oct 27 11:43:31 T1_review]$ mv LinuxT1_review/testone Test1
+[pc52@linuxclass Mon Oct 27 11:44:22 T1_review]$ #step 13
+[pc52@linuxclass Mon Oct 27 11:44:41 T1_review]$ mv b_server/ EchoServer_files
+[pc52@linuxclass Mon Oct 27 11:44:58 T1_review]$ ls
+animals   documents         LinuxT1         LinuxT3         permissions  stdfiles   word
+a_server  EchoServer_files  LinuxT1_review  LinuxT3retry    processes    Test1
+database  filesearch        LinuxT2         LinuxT3_review  scripts      text_proc
+demo      historical        LinuxT2_review  literature      sorting      vimeditor
+[pc52@linuxclass Mon Oct 27 11:45:16 T1_review]$ mv Test1 LinuxT1_review/
+[pc52@linuxclass Mon Oct 27 11:45:48 T1_review]$ ln LinuxT1_review/bears LinuxT1_review/grizzly
+[pc52@linuxclass Mon Oct 27 11:47:11 T1_review]$ #step 15
+[pc52@linuxclass Mon Oct 27 11:47:30 T1_review]$ ln -s LinuxT1_review/tigers LinuxT1_review/tony
+[pc52@linuxclass Mon Oct 27 11:48:20 T1_review]$ #step 16
+[pc52@linuxclass Mon Oct 27 11:48:36 T1_review]$ rm LinuxT1_review/Test1
+[pc52@linuxclass Mon Oct 27 11:49:42 T1_review]$ rm LinuxT1_review/testtwo
+[pc52@linuxclass Mon Oct 27 11:49:51 T1_review]$ #step 17
+[pc52@linuxclass Mon Oct 27 11:50:20 T1_review]$ touch a_server/myFile
+[pc52@linuxclass Mon Oct 27 11:50:52 T1_review]$ history
+    1  clear
+    2  #Joshua Anderson
+    3  cd /bin
+    4  ls -i
+    5  ls -i -li
+    6  cd /lib
+    7  ls -i -l
+    8  cd /home/pc52
+    9  clear
+   10  #Joshua Anderson
+   11  #step 4
+   12  mkdir T1_review
+   13  mkdir -p T1_review/a_server T1_review/b_server
+   14  mkdir -p T1_review/b_server/linux
+   15  #step 5
+   16  cp -r /home/1171_DataFiles/* ./T1_review/
+   17  cd T1_review/
+   18  tree
+   19  #step 8
+   20  ls -l -i
+   21  #step 9
+   22  mv sorting/groceries word/grocerylist
+   23  mkdir word
+   24  mv sorting/groceries word/grocerylist
+   25  #step 10
+   26  move EchoServer* b_server/
+   27  mv EchoServer* b_server/
+   28  mv linuxT1_review/EchoServer* b_server/
+   29  mv ./linuxT1_review/EchoServer* b_server/
+   30  ls
+   31  mv LinuxT1_review/EchoServer* b_server/
+   32  #step 11
+   33  mv LinuxT1_review/LinuxServer* a_server/
+   34  #step 12
+   35  mv LinuxT1_review/testone Test1
+   36  #step 13
+   37  mv b_server/ EchoServer_files
+   38  ls
+   39  mv Test1 LinuxT1_review/
+   40  ln LinuxT1_review/bears LinuxT1_review/grizzly
+   41  #step 15
+   42  ln -s LinuxT1_review/tigers LinuxT1_review/tony
+   43  #step 16
+   44  rm LinuxT1_review/Test1
+   45  rm LinuxT1_review/testtwo
+   46  #step 17
+   47  touch a_server/myFile
+   48  history
+[pc52@linuxclass Mon Oct 27 11:51:08 T1_review]$
